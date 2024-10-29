@@ -9,8 +9,6 @@ crash.log
 .terraform/
 
 # Ignore Terraform variable files that may contain sensitive data
-*.tfvars
-*.tfvars.json
 *.tfstate
 *.tfstate.backup
 
