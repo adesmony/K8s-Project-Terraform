@@ -1,0 +1,33 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# Ignore .terraform directory (contains downloaded providers and plugins)
+.terraform/
+
+# Ignore Terraform variable files that may contain sensitive data
+*.tfvars
+*.tfvars.json
+*.tfstate
+*.tfstate.backup
+
+# Ignore override files (common practice in Terraform)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore Terraform plan files (can be large and contain sensitive info)
+*.tfplan
+
+# Ignore provider binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore lock files created by provider dependencies
+.terraform.lock.hcl
